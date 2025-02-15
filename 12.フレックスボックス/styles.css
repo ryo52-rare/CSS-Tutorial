@@ -37,7 +37,12 @@ footer {
 
 
 /* body要素にスタイルを適用 */
-
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
 /* header要素にスタイルを適用 */
 
 /* ul要素にスタイルを適用 */
